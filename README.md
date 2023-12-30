@@ -35,5 +35,3 @@ Future Challenges
 
 1) This architecture can be used for complex application, however something to remember is it is not finished. The architecture needs to evolve alongside your project, this is not a one size fits all. For example, you can have another folder for localization and much more.
 2) Some architectures online which also use Riverpod follow the same way, but uses another folder to store all the Riverpod Providers. I have put the Provider inside the same repository/handler because it is easily accessible, and also does not complicate things with more folders. I recommend doing it this way. While some might say the other method abstracts away the state management and you can just delete the providers file, the issue is you will have to regardless do a lot of refactoring no matter what state management you decide to use and switch to. So might as well just do it this way which eliminates many more unnecessary folders. This also makes it extremely easy to view from the developer's perspective.
-
-https://github.com/Karthiks915/architecture.git
